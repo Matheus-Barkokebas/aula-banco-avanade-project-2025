@@ -32,5 +32,5 @@ flowchart TD
     H3 --> I3[Exibir lista de postos + mapa]
     I3 --> J3{Postos encontrados?}
     J3 -- Sim --> K3[Fim da busca por localização]
-    J3 -- Não --> L3[Exibir mensagem: "Nenhum posto encontrado"]
+    J3 -- Não --> L3[Exibir mensagem: 'Nenhum posto encontrado']
     L3 --> K3
